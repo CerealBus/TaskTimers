@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+*               text=auto
+
+# Documents
+*.md            diff=markdown
+*.mdx           diff=markdown
+
+# Sources
+*.kt            diff=kotlin
+*.gradle.kts    diff=kotlin
+
+# Build-tool wrapper scripts
+gradlew         eol=lf
+gradlew.cmd     eol=crlf
